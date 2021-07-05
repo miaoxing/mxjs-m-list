@@ -13,5 +13,8 @@
   "dependencies": {},
   "devDependencies": {
     "@miaoxing/dev": "^7.0.1"
+  },
+  "ciDependencies": {
+    "@miaoxing/dev": "miaoxing/dev"
   }
 }
