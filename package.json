@@ -11,11 +11,19 @@
     "node": ">=12.10.0"
   },
   "jest": {
-    "preset": "jest-preset-miaoxing"
+    "preset": "jest-preset-miaoxing",
+    "moduleNameMapper": {
+      "@tarojs/components": "@tarojs/components/dist-h5/react"
+    }
   },
-  "dependencies": {},
+  "dependencies": {
+    "@tarojs/components": "^3.2.10",
+    "@fower/taro": "^1.16.0",
+    "clsx": "^1.1.1"
+  },
   "devDependencies": {
-    "@miaoxing/dev": "^7.0.1"
+    "@miaoxing/dev": "^7.0.1",
+    "@testing-library/react": "^11.2.6"
   },
   "ciDependencies": {
     "@miaoxing/dev": "miaoxing/dev"

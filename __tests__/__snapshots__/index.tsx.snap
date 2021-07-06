@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`list List 1`] = `
+<div>
+  <taro-view-core
+    class="mx-list"
+  />
+</div>
+`;
