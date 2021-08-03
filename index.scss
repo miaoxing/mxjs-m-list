@@ -1,23 +1,7 @@
+@import "~@mxjs/border/mixins/hairline";
+
 // Lists
 $prefix: '.mx-list';
-
-// TODO 集成到 border 中
-@mixin hairline-bottom($border-color, $left: 0) {
-  position: relative;
-  &::after {
-    position: absolute;
-    content: " ";
-    pointer-events: none;
-
-    transform: scaleY(0.5);
-
-    left: $left;
-    right: 0;
-    // NOTE: 不使用 -50% 拉伸，将导致 web 不显示边框
-    bottom: 0;
-    border-bottom: 1PX solid var(--mx-colors-gray-300);
-  }
-}
 
 #{$prefix} {
   --mx-list-item-padding-y: var(--mx-space-3);
@@ -72,10 +56,14 @@ $prefix: '.mx-list';
       background-color: var(--mx-colors-gray-300);
     }
 
-    @include hairline-bottom(var(--mx-colors-gray-300), var(--mx-space-3));
+    @include hairline2-bottom(var(--mx-colors-gray-300));
+
+    &::after {
+      left: var(--mx-space-3);
+    }
 
     // 最后一个不显示边框
-    &:last-child::after {
+    &:last-child {
       border-bottom-color: transparent;
     }
   }
