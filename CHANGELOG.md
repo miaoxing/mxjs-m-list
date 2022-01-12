@@ -1,3 +1,25 @@
+## [0.1.2](https://github.com/miaoxing/mxjs-m-list/compare/v0.1.1...v0.1.2) (2022-01-12)
+
+
+### Bug Fixes
+
+* 更新 `[@fower](https://github.com/fower)` 到 `^1.59.0` ([f77c2e3](https://github.com/miaoxing/mxjs-m-list/commit/f77c2e30b944d6012ed7ed8c4c33471e41bf5fa5))
+
+
+### Features
+
+* **taro:** 限制 taro 为 3.3.x，3.4 有 BREAKING CHANGES ([bc350ed](https://github.com/miaoxing/mxjs-m-list/commit/bc350edea07fd4a35366ce63f39af6f1b59bab73))
+* 更新 `[@fower](https://github.com/fower)` 到 `^1.61` ([eb5b273](https://github.com/miaoxing/mxjs-m-list/commit/eb5b2734d7203c3754aaac8ecf0c4d11cb4b1bfe))
+* 更新 taro 到 `^3.3.20` ([5844c93](https://github.com/miaoxing/mxjs-m-list/commit/5844c93a3733d982d01fe13988f152f1d5dc816c))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `8.0.0` to `8.0.1`
+
 ## [0.1.1](https://github.com/miaoxing/mxjs-m-list/compare/v0.1.0...v0.1.1) (2021-10-28)
 
 
