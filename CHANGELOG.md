@@ -1,3 +1,18 @@
+# [1.0.0](https://github.com/miaoxing/mxjs-m-list/compare/v0.1.5...v1.0.0) (2022-07-01)
+
+
+### Features
+
+* 发布 1.0.0 [release 1.0.0] ([b354a13](https://github.com/miaoxing/mxjs-m-list/commit/b354a13d606fee6f4b185fd2ab011323b3f89384))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `8.1.1` to `8.1.2`
+
 ## [0.1.5](https://github.com/miaoxing/mxjs-m-list/compare/v0.1.4...v0.1.5) (2022-06-01)
 
 
